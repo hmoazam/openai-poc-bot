@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServiceName": {
+            "value": "kmopenaibotappservice"
+        },
+        "existingAppServicePlanName": {
+            "value": ""
+        },
+        "existingAppServicePlanLocation": {
+            "value": ""
+        },
+        "newAppServicePlanName": {
+            "value": "kmopaibotappserviceplan"
+        },
+        "newAppServicePlanLocation": {
+            "value": "westeurope"
+        },
+        "newAppServicePlanSku": {
+            "value": {
+                "name": "S1",
+                "tier": "Standard",
+                "size": "S1",
+                "family": "S",
+                "capacity": 1
+            }
+        },
+        "appId": {
+            "value": "85b8e789-af14-418c-98b1-189ec391d6cc"
+        },
+        "appSecret": {
+            "value": "dd3b1a6d-a87d-45ea-a1e4-243e0624692c"
+        }
+    }
+}
